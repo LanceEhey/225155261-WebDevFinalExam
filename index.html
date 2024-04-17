@@ -3,45 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CC14 EXAM</title>
+    <link rel="stylesheet" href="style.css"
     <style> 
     body{
-        display: block
-        flex-direction flex 
-        min-height 200vh;
-        margin: 10;
-        font-family: Times new roman;</style>
+        margin: 0;
+        font: 1em sans-serif;</style>
     }
-    .header, .nav, .main, .footer{
-        padding: 2rem
-        border-bottom: 3px solid;
+    .header, .nav, .main, .footer {
+        padding: 20px;
+        box-sizing: border-box;
     }
-    .header{
-        display {
-            display: flex;
-            justify-content:space between;
-            align-items: center;
+    .header, footer{
+        background-color: #333 
+        color: white;
         }
-        .nav a {
-            display: flex;
-            justify-content: space around;
+    .nav {
+        background-color: #555;
+        display: flex;
+        justify-content: space-around;
         }
+    .nav a{
+        color: white;
+        text-decoration: none;
+    }
     .main {
-        flex: 2; /*make main content take up remaining space */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
     }
-    .footer{
-        text-align: center;
+    content{
+        flex: 1;
+        background-color: #f0f0f0;
+        padding: 15;
+        border-radius: 5px;
     }
-    }
+</style>
 </head>
 <body>
     <header>Final Exam CC14</header>
 
 <nav>
     <ul>
-        <li><a href =>Home</a></li>
-        <li><a href =>About</a></li>
-        <li><a href =>Services</a></li>
+        <a href ="#">Home</a>
+        <a href ="#">About</a>
+        <a href ="#">Services</a>
+        <a href ="#">Contact</a>
     </ul>
 </nav>
 
@@ -63,6 +70,10 @@
             Eos reprehenderit minima dolorem est dignissimos aperiam perspiciatis ipsum. 
             Nulla facere, dolore similique sunt temporibus provident, id incidunt eius minima, 
             illo voluptatum.</footer>
+        
+        <footer>
+            <p>&copy; 2024 my website. All Right Reserved.</p>
+        </footer>
 
 </main>
 </body>
